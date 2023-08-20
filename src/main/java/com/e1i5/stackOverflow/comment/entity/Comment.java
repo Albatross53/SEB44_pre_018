@@ -19,17 +19,18 @@ public class Comment extends Auditable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long commentId;
 
-    @Column(nullable = false, columnDefinition = "TEXT CHECK (LENGTH(content) <= 500)")
+//    @Column(nullable = false, columnDefinition = "TEXT CHECK (LENGTH(content) <= 500)")
+    @Column(nullable = false)
     private String content;
 
 
     @ManyToOne
-    @JoinColumn(name = "MEMBER_ID")
+    @JoinColumn(name = "memberId")
     private Member member;
 
 
     @ManyToOne
-    @JoinColumn(name = "QUESTION_ID")
+    @JoinColumn(name = "question_id")
     private Question question;
 
 

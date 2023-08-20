@@ -1,16 +1,7 @@
 spring:
   profiles:
     active: local
-  jpa:
-    hibernate:
-      ddl-auto: create  # (1) ??? ?? ??
-    show-sql: true      # (2) SQL ?? ??
-    properties:
-      hibernate:
-        format_sql: true  # (3) SQL pretty print
-  sql:
-    init:
-      data-locations: classpath*:db/h2/data.sql
+
 logging:
   level:
     org:
@@ -23,7 +14,7 @@ server:
       force-response: true
 mail:
   address:
-    admin: admin@gmail.com
+    admin: ${ADMIN_MAIL}
 jwt:
   key: ${JWT_SECRET_KEY}
   access-token-expiration-minutes: 40

@@ -4,184 +4,90 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec2fb19f-b91e-4744-873a-a8508d6d21ad" name="Changes" comment="feat/ backend 누락파일 업로드">
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.e1i5.stackOverflow.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-server.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.5.1/dependencies-accessors/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.5.1/fileChanges/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileChanges/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.5.1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/gc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.6.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.6.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.6.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.6.1/dependencies-accessors/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.6.1/fileChanges/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileChanges/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/7.6.1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/gc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/file-system.probe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.gradle/vcs-1/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.idea/modules/stackOverflow.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/stackOverflow.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/StackOverflowApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/StackOverflowApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/audit/Auditable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/audit/Auditable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/dto/LoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/dto/LoginDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/filter/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/filter/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/filter/JwtVerificationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/filter/JwtVerificationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/handler/MemberAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/handler/MemberAccessDeniedHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/handler/MemberAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/handler/MemberAuthenticationEntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/handler/MemberAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/handler/MemberAuthenticationFailureHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/handler/MemberAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/handler/MemberAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/handler/OAuth2MemberSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/handler/OAuth2MemberSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/interceptor/JwtInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/interceptor/JwtInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/interceptor/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/interceptor/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/jwt/JwtTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/jwt/JwtTokenizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/userdetails/MemberDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/userdetails/MemberDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/utils/CustomAuthorityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/utils/CustomAuthorityUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/auth/utils/ErrorResponder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/auth/utils/ErrorResponder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/comment/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/comment/dto/CommentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/dto/CommentDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/comment/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/entity/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/comment/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/mapper/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/comment/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/repository/CommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/comment/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/dto/MultiResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/dto/MultiResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/dto/PageInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/dto/PageInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/dto/SingleResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/dto/SingleResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/exception/BusinessLogicException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/exception/BusinessLogicException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/exception/ExceptionCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/exception/ExceptionCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/helper/event/MemberRegistrationApplicationEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/helper/event/MemberRegistrationApplicationEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/member/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/member/dto/MemberDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/member/dto/MemberDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/member/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/member/entity/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/member/mapper/MemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/member/mapper/MemberMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/member/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/member/repository/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/member/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/question/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/question/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/question/dto/QuestionCommentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/question/dto/QuestionCommentDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/question/dto/QuestionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/question/dto/QuestionDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/question/dto/QuestionResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/question/dto/QuestionResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/question/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/question/entity/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/question/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/question/mapper/QuestionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/question/repository/QuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/question/repository/QuestionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/question/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/question/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/questionVote/dto/QuestionVoteDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/questionVote/dto/QuestionVoteDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/questionVote/entity/QuestionVote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/questionVote/entity/QuestionVote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/questionVote/mapper/QuestionVoteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/questionVote/mapper/QuestionVoteMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/questionVote/repository/QuestionVoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/questionVote/repository/QuestionVoteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/questionVote/service/QuestionVoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/questionVote/service/QuestionVoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/response/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/response/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/utils/CustomBeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/utils/CustomBeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/java/com/e1i5/stackOverflow/utils/UriCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/utils/UriCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/application-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application-server.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/.eslintrc.json@back" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/.eslintrc.json@back" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/.prettierrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/.prettierrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/jsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/public/data/answers.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/public/data/answers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/public/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/public/data/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/public/data/member.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/public/data/member.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/assets/ico_github.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/assets/ico_github.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/assets/ico_google.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/assets/ico_google.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/assets/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/assets/login_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/assets/login_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/assets/login_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/assets/login_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/assets/logo-h.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/assets/logo-h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/assets/logo-w.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/assets/logo-w.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/assets/profile_image1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/assets/profile_image1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/Filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/ListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/Router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/SearchArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/SearchArea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/TagWrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/TagWrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/UserWrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/UserWrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/Pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/answerdetail/Answer.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/Answer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/answerdetail/AnswerDeleteModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/AnswerDeleteModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/answerdetail/AnswerDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/AnswerDropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/answerdetail/AnswerItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/AnswerItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/answerdetail/VoteButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/VoteButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/login/HeaderButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/login/HeaderButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/login/LoginGithub.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/login/LoginGithub.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/login/LoginGoogle.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/login/LoginGoogle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/login/LoginModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/login/LoginModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/questionItem/Editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/Editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/questionItem/Editor.jsBack" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/Editor.jsBack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/questionItem/ItemAnswer.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/ItemAnswer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/questionItem/ItemView.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/ItemView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/questionItem/QuestionEditButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/QuestionEditButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/questionItem/QuestionView.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/QuestionView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/tag/AddTag.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/tag/AddTag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/components/global/tag/TagList.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/components/global/tag/TagList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/pages/DetailPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/pages/DetailPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/pages/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/pages/MainList.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/pages/MainList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/pages/MyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/pages/MyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/pages/QuestionUpdate.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/pages/QuestionUpdate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/pages/QuestionWrite.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/pages/QuestionWrite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/pages/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/pages/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/pages/Tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/pages/Tag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/pages/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/pages/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/pages/cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/pages/cookie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/style/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/style/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/src/style/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/src/style/reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/main/resources/static/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/stackOverflow/src/test/java/com/e1i5/stackOverflow/auth/jwt/JwtTokenizerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/e1i5/stackOverflow/auth/jwt/JwtTokenizerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/이슈작성_템플릿.md" beforeDir="false" />
+    <list default="true" id="ec2fb19f-b91e-4744-873a-a8508d6d21ad" name="Changes" comment="feat/ dir change">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/.eslintrc.json@back" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/.prettierrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/data/answers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/data/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/data/member.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/ico_github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/ico_google.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/login_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/login_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/logo-h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/logo-w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/profile_image1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/Filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/ListItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/Router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/SearchArea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/SearchBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/TagWrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/UserWrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/Pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/Answer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/AnswerDeleteModal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/AnswerDropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/AnswerItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/VoteButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/login/HeaderButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/login/LoginGithub.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/login/LoginGoogle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/login/LoginModal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/Editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/Editor.jsBack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/ItemAnswer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/ItemView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/QuestionEditButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/QuestionView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/tag/AddTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/tag/TagList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/DetailPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/MainList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/MyPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/QuestionUpdate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/QuestionWrite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/Register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/Tag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/User.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/style/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/style/reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/StackOverflowApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/StackOverflowApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,18 +110,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="stackOverflow" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="stackOverflow" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="stackOverflow" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="seb44_pre_018" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -239,13 +134,16 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.StackOverflowApplication (1)">
     <configuration name="StackOverflowApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.e1i5.stackOverflow.StackOverflowApplication" />
-      <module name="com.e1i5.stackOverflow.main" />
+      <module name="seb44_pre_018.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.e1i5.stackOverflow.*" />
@@ -338,11 +236,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687835292785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat/ dir change">
+      <option name="closed" value="true" />
+      <created>1692200688862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692200688862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat/ backend 누락파일 업로드" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat/ backend 누락파일 업로드" />
+    <MESSAGE value="feat/ dir change" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat/ dir change" />
   </component>
 </project>
