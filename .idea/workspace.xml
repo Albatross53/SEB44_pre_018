@@ -4,90 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec2fb19f-b91e-4744-873a-a8508d6d21ad" name="Changes" comment="feat/ dir change">
+    <list default="true" id="ec2fb19f-b91e-4744-873a-a8508d6d21ad" name="Changes" comment="feat/ mariadb change">
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/.eslintrc.json@back" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/.prettierrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/data/answers.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/data/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/data/member.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/ico_github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/ico_google.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/login_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/login_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/logo-h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/logo-w.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/assets/profile_image1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/Filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/ListItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/Router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/SearchArea.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/SearchBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/TagWrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/UserWrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/Navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/Pagination.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/Answer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/AnswerDeleteModal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/AnswerDropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/AnswerItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/answerdetail/VoteButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/login/HeaderButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/login/LoginGithub.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/login/LoginGoogle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/login/LoginModal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/Editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/Editor.jsBack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/ItemAnswer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/ItemView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/QuestionEditButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/questionItem/QuestionView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/tag/AddTag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/components/global/tag/TagList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/DetailPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/MainList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/MyPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/QuestionUpdate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/QuestionWrite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/Register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/Tag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/pages/cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/style/global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/src/style/reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/tailwind.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/StackOverflowApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/StackOverflowApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/entity/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/data/answers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/data/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/data/member.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/static/css/main.ea0a62fa.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/static/css/main.ea0a62fa.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/static/js/main.17f6cf4b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/static/js/main.17f6cf4b.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/static/js/main.17f6cf4b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/static/media/login_bg.a5190d796d3badea66d6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/static/media/profile_image1.d9bd923b017225196b1e.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-server.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,12 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692200688862</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat/ mariadb change">
+      <option name="closed" value="true" />
+      <created>1692541346151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692541346151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat/ backend 누락파일 업로드" />
     <MESSAGE value="feat/ dir change" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat/ dir change" />
+    <MESSAGE value="feat/ mariadb change" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat/ mariadb change" />
   </component>
 </project>
