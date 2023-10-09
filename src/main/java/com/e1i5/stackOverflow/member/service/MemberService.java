@@ -29,7 +29,6 @@ import java.util.UUID;
 @Service
 @Slf4j
 @Transactional
-
 public class MemberService {
     private final MemberRepository memberRepository;
     private final ApplicationEventPublisher publisher;
@@ -50,8 +49,7 @@ public class MemberService {
     // 회원가입, 로그인 기능을 공유하는 메서드
     public Member signupMember(Member member){
         verifyExistsEmail(member.getEmail());
-        String encryptedPassword = passwordEncoder.encode(member.getPassword()); // member에 저장된 원래 비밀번호 암호화
-        member.setPassword(encryptedPassword);// 암호화된 비밀번호를 member의 비밀번호 필드에 저장
+        member.setPassword(passwordEncoding(member.getPassword()));// 암호화된 비밀번호를 member의 비밀번호 필드에 저장
         // db에 저장되는 비밀번호는 실제 비밀번호의 암호화된 형태로 저장
 
         // 추가: DB에 User Role 저장, 사용자 권한 정보 생성
@@ -63,30 +61,15 @@ public class MemberService {
         return savedMember;
     }
 
-    public Member loginMember(Member member) throws Exception{
-        Member findMember = findVerifiedMemberByEmail(member.getEmail());
-        String findMemberPassword = findMember.getPassword();
-
-        // 임시 비밀번호 확인
-//        if (!encoder.matches(member.getPassword(), findMemberPassword)) {
-//            throw new Exception("Invalid password"); // 예외를 던짐
-//        }else {
-//            System.out.println("비밀번호 일치");
-//        }
-        if(member.getPassword() == findMemberPassword){
-            throw new Exception("Invalid password"); // 예외를 던짐
-        }else {
-//            System.out.println("비밀번호 일치");
-//        }
-        }
-
-
-        return memberRepository.save(findMember);
+    //비밀번호 암호화
+    private String passwordEncoding(String password) {
+        String encryptedPassword = passwordEncoder.encode(password);
+        return encryptedPassword;
     }
 
 
 
-    public void imageUpload(long memberId, MultipartFile multipartFile){
+    public Member imageUpload(long memberId, MultipartFile multipartFile){
         //image upload
         String projectPath = System.getProperty("user.dir") + File.separator + "files";
         UUID uuid = UUID.randomUUID();
@@ -135,18 +118,18 @@ public class MemberService {
         findMember.setProfileImagePath(projectPath);
         findMember.setProfileImageName(fileName);
 
-        memberRepository.save(findMember);
+        return memberRepository.save(findMember);
     }
 
-    public Member updateMember(Member member){
-        Member findMember = findVerifiedMemberById(member.getMemberId());
+    public Member updateMember(long memberId, Member member){
+        Member findMember = findVerifiedMemberById(memberId);
 
         Optional.ofNullable(member.getName())
                 .ifPresent(name -> findMember.setName(name));
         Optional.ofNullable(member.getPhone())
                 .ifPresent(phone -> findMember.setPhone(phone));
         Optional.ofNullable(member.getPassword())
-                .ifPresent(password -> findMember.setPassword(password));
+                .ifPresent(password -> findMember.setPassword(passwordEncoding(password)));
 
         return memberRepository.save(findMember);
     }
@@ -176,14 +159,6 @@ public class MemberService {
     @Transactional(readOnly = true)
     public Member findVerifiedMemberById(long memberId){
         Optional<Member> optionalMember = memberRepository.findById(memberId);
-        Member findMember =
-                optionalMember.orElseThrow(() ->
-                        new BusinessLogicException(ExceptionCode.MEMBER_NOT_FOUND));
-        return findMember;
-    }
-
-    private Member findVerifiedMemberByEmail(String email){
-        Optional<Member> optionalMember = memberRepository.findByEmail(email);
         Member findMember =
                 optionalMember.orElseThrow(() ->
                         new BusinessLogicException(ExceptionCode.MEMBER_NOT_FOUND));

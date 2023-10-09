@@ -31,7 +31,6 @@ public class MemberDto {
     @AllArgsConstructor
     @Getter
     public static class Patch{
-        private long memberId;
 
         @NotBlank(message = "이름은 공백이 아니어야 합니다.")
         private String name;
@@ -45,9 +44,6 @@ public class MemberDto {
         @NotBlank
         private String password;
 
-        public void setMemberId(long memberId) {
-            this.memberId = memberId;
-        }
     }
 
     @AllArgsConstructor

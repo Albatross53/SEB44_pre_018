@@ -66,8 +66,7 @@ public class MemberController{
     public ResponseEntity memberIamgeUpload(@RequestParam("file") MultipartFile multipartFile){
         long memberId = JwtInterceptor.requestMemberId();
 
-        memberService.imageUpload(memberId, multipartFile);
-        Member findMember = memberService.findMember(memberId);
+        Member findMember = memberService.imageUpload(memberId, multipartFile);
         MemberDto.Response response = mapper.memberToMemberResponseDto(findMember);
         return new ResponseEntity<>(new SingleResponseDto<>(response), HttpStatus.OK);
     }
@@ -76,8 +75,7 @@ public class MemberController{
     public ResponseEntity patchMember(@Valid @RequestBody MemberDto.Patch requestBody){
         long memberId = JwtInterceptor.requestMemberId();
 
-        requestBody.setMemberId(memberId);
-        Member findMember = memberService.updateMember(mapper.memberPatchDtoToMember(requestBody));
+        Member findMember = memberService.updateMember(memberId, mapper.memberPatchDtoToMember(requestBody));
         MemberDto.Response response = mapper.memberToMemberResponseDto(findMember);
         return new ResponseEntity<>(new SingleResponseDto<>(response), HttpStatus.OK);
     }
@@ -86,21 +84,11 @@ public class MemberController{
     public ResponseEntity getMembers(@Positive @RequestParam int page,
                                      @Positive @RequestParam int size){
         long memberId = JwtInterceptor.requestMemberId();
-        // 전달받은 id 가 admin과 같다면
-        Member visit = memberService.findVerifiedMemberById(memberId);
 
-        if(visit.getEmail().equals("admin@gmail.com")){
-            Page<Member> pageMembers = memberService.findMembers(page-1, size);
-            List<Member> members = pageMembers.getContent();
+        Page<Member> pageMembers = memberService.findMembers(page-1, size);
+        List<Member> members = pageMembers.getContent();
 
-            return new ResponseEntity<>(
-                    new MultiResponseDto<>(mapper.membersToMemberResponseDtos(members),
-                    pageMembers), HttpStatus.OK);}
-        else{
-            throw new BusinessLogicException(ExceptionCode.IS_NOT_AN_ADMIN);
-        }
-
-
+        return new ResponseEntity<>(new MultiResponseDto<>(mapper.membersToMemberResponseDtos(members), pageMembers), HttpStatus.OK);
     }
 
     @GetMapping("/getmember")
