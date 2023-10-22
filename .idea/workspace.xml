@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec2fb19f-b91e-4744-873a-a8508d6d21ad" name="Changes" comment="feat/ dockerfile">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/entity/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/mapper/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/repository/CommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e1i5/stackOverflow/comment/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="ec2fb19f-b91e-4744-873a-a8508d6d21ad" name="Changes" comment="[refactor] comment 리팩토링 &#10;[feat] healthCheck 기능 구현" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +61,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RlqrKzVTpYy385Gxdy7KvEK3sJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -230,7 +217,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687835214827</updated>
-      <workItem from="1697092182050" duration="1825000" />
+      <workItem from="1697092182050" duration="2674000" />
     </task>
     <task id="LOCAL-00001" summary="feat/ backend 누락파일 업로드">
       <created>1687835292785</created>
@@ -263,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692944457657</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[refactor] comment 리팩토링 &#10;[feat] healthCheck 기능 구현">
+      <created>1697094858211</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697094858211</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +271,7 @@
     <MESSAGE value="feat/ dir change" />
     <MESSAGE value="feat/ mariadb change" />
     <MESSAGE value="feat/ dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat/ dockerfile" />
+    <MESSAGE value="[refactor] comment 리팩토링 &#10;[feat] healthCheck 기능 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="[refactor] comment 리팩토링 &#10;[feat] healthCheck 기능 구현" />
   </component>
 </project>
